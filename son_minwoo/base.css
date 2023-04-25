@@ -29,8 +29,8 @@ figure{
 
 p{
     width: 60%;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 3em;
+    margin-right: 3em;
     /* padding-left: 20em;
     padding-right: 20em; */
 
@@ -44,12 +44,12 @@ p{
  
   
 .quote{
-    width: 40%;
+    width: 60%;
     text-align : left;
     font-style: italic;
     font-size: 90%;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-left: 4em;
+    padding-right: 4em;
     
 }
 
@@ -57,7 +57,7 @@ p{
     font-family: 'Merriweather', serif;
     width: 70%;
     /* margin: 15em; */
-    margin-left: 10em
+    margin-left: 3em
 }
 
 #playlist {
