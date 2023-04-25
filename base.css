@@ -1,0 +1,20 @@
+#playlist {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    /* right: 2em; */
+    width: 15%;
+    height: 200px;
+}
+
+#play_caption{
+    position: fixed;
+    bottom: 0px;
+    right: 2em;
+    width: 15%;
+    height: 100px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: left;
+    font-family: 'Gowun Dodum', sans-serif;
+}
