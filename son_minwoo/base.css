@@ -19,16 +19,18 @@ img{
     height: auto;
     text-align: center;
     
+    max-width: 100%;
 }
 
-figure{
+figcaption{
     font-size: 70%;
     text-align: left;
-    margin-left: 15em;
+    
+    /* margin-left: 15em; */
 }
 
 p{
-    width: 71%;
+    width: 70%;
     margin-left: 3em;
     margin-right: 3em;
     /* padding-left: 20em;
@@ -60,22 +62,71 @@ p{
     margin-left: 3em
 }
 
-#playlist {
+  .playlist-container {
     position: fixed;
     bottom: 80px;
     right: 2em;
     width: 15%;
     height: 200px;
-}
 
-#play_caption{
-    position: fixed;
+    margin-left: 3em;
+    
+   
+  }
+  
+  #playlist {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  #play_caption {
+    position: relative;
     bottom: 0px;
-    right: 2em;
-    width: 15%;
-    height: 100px;
+    /* right: em; */
+    height: 80x;
     font-size: 13px;
     line-height: 150%;
     text-align: left;
     font-family: 'Gowun Dodum', sans-serif;
-}
+    
+    min-width: 120%;
+
+    padding: 7px;
+    margin: 0px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .container{
+      margin: 2px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .playlist-container {
+      position: static;
+      height: auto;
+      width: auto;
+    }
+  
+    #playlist {
+      margin-top: 10px; /* Set to whatever margin you prefer */
+    }
+  
+    #play_caption {
+      position: static;
+      padding: 10px;
+        margin: 0px;
+        border-radius: 2px;
+        box-shadow: 0px 2px 2px 4px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        min-width: 40%;
+        max-width: 70%;
+        overflow-x: hidden;
+    }
+  }
