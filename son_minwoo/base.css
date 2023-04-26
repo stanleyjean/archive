@@ -110,6 +110,7 @@ p{
       position: static;
       height: 15em;
       width: 15em;
+      margin-bottom: 5em;
     }
   
     #playlist {
@@ -124,7 +125,7 @@ p{
         min-width: 40%;
         max-width: 80%;
         overflow-x: hidden;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
   }
 
