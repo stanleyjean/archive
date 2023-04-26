@@ -115,6 +115,7 @@ p{
     }
   
     #playlist {
+      position: static;
       margin-top: 10px; /* Set to whatever margin you prefer */
     }
   
