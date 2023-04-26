@@ -130,3 +130,17 @@ p{
         overflow-x: hidden;
     }
   }
+  @media only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2) {
+  #playlist {
+    margin-top: 0px;
+  }
+  #play_caption{
+    margin-bottom: 0px;
+  }
+  body{
+    font-size: 15px
+  }
+}
