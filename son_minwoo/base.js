@@ -22,19 +22,5 @@ links.forEach(link => {
 });
 };
 
-// Get references to the iframe and body paragraph elements
-const iframe = document.querySelector("#playlist");
-const paragraph = document.querySelector("p");
 
-// Function to check if two elements intersect
-function intersect(element1, element2) {
-  const rect1 = element1.getBoundingClientRect();
-  const rect2 = element2.getBoundingClientRect();
-  return !(
-    rect1.bottom < rect2.top ||
-    rect1.top > rect2.bottom ||
-    rect1.right < rect2.left ||
-    rect1.left > rect2.right
-  );
-}
 
