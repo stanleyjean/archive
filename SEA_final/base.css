@@ -1,0 +1,181 @@
+body{
+    /* font-family: 'Gowun Dodum', sans-serif; */
+    font-family: "Computer Modern Sans", sans-serif;
+    line-height: 200%;
+    font-size: 22px;
+
+    /* animation: color 10s infinite linear; */
+    background-color: rgb(148, 163, 150);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Make the background image fixed */
+    background-position: center top; /* Set the background position to center top */
+    height: 200vh;
+    text-align: left;
+
+}
+
+.image-section {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* position: relative; */
+}
+
+
+
+img{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    
+}
+
+figcaption{
+    font-size: 70%;
+    text-align: left;
+    
+    /* margin-left: 15em; */
+}
+
+p{
+    width: 70%;
+    margin-left: 3em;
+    margin-right: 3em;
+    /* padding-left: 20em;
+    padding-right: 20em; */
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+ 
+  
+.quote{
+    width: 60%;
+    text-align : left;
+    font-style: italic;
+    font-size: 90%;
+    padding-left: 4em;
+    padding-right: 4em;
+    
+}
+
+.title{
+    font-family: 'Merriweather', serif;
+    width: 70%;
+    /* margin: 15em; */
+    margin-left: 3em
+}
+
+  .playlist-container {
+    position: fixed;
+    bottom: 80px;
+    right: 2em;
+    width: 15%;
+    height: 200px;
+
+    margin-left: 3em;
+    
+   
+  }
+  
+  #playlist {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #play_caption {
+    position: relative;
+    bottom: 0px;
+    /* right: em; */
+    font-size: 13px;
+    line-height: 150%;
+    text-align: left;
+    font-family: 'Gowun Dodum', sans-serif;
+    
+    min-width: 120%;
+
+    padding: 7px;
+    margin: 0px;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .container{
+      margin: 2px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .playlist-container {
+      position: static;
+      height: 15em;
+      width: 15em;
+      margin-bottom: 5em;
+    }
+  
+    #playlist {
+      position: static;
+    }
+  
+    #play_caption {
+      position: static;
+        border-radius: 2px;
+        box-shadow: 0px 2px 2px 4px rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+        min-width: 40%;
+        max-width: 80%;
+        overflow-x: hidden;
+        margin-bottom: 2em;
+    }
+    p{
+      margin-left: 1em; margin-right: 1em; width: 90%;
+    }
+    .title{
+      margin-left: 1em; margin-right: 1em; width: 90%;
+    }
+    .quote {
+      width: 80%;
+    }
+    img{
+      width: 100%;
+    }
+
+  }
+  
+  @media only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2) {
+  #playlist {
+    margin-top: 0px;
+  }
+  #play_caption{
+    margin-bottom: 0px;
+  }
+  body{
+    font-size: 15px
+  }
+}
+
+@font-face {
+  font-family: 'Hankc';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff') format('woff');
+}
+
+.hankc * {
+ font-family: 'Hankc', serif;
+}
