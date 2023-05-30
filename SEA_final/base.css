@@ -1,6 +1,8 @@
 body{
     /* font-family: 'Gowun Dodum', sans-serif; */
-    font-family: "Computer Modern Sans", sans-serif;
+    /* font-family: "Computer Modern Sans", sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Lora', serif;
     line-height: 200%;
     font-size: 22px;
 
@@ -35,6 +37,7 @@ img{
 }
 
 figcaption{
+    font-family: 'Gowun Dodum', sans-serif;
     font-size: 70%;
     text-align: left;
     
@@ -58,6 +61,8 @@ p{
  
   
 .quote{
+  font-family: 'Gowun Dodum', sans-serif;
+
     width: 60%;
     text-align : left;
     font-style: italic;
