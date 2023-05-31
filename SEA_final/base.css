@@ -27,7 +27,9 @@ body{
   /* position: relative; */
 }
 
-
+iframe{
+  border: 0; width: 400px; height: 300px;
+}
 
 img{
     width: 80%;
@@ -156,6 +158,10 @@ p{
     img{
       width: 100%;
     }
+    iframe{
+      width: 80%;
+    }
+
 
   }
   
