@@ -23,8 +23,8 @@
         <script src = "../final.js"></script>
     </head>
     <script>
-  function goBack() {
-    window.history.back();
+ function goToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 </script>
     <body>
@@ -35,7 +35,7 @@
         <script src="" async defer></script>
         <p style = "padding-top: 4em">
             <strong style = "font-size: 50px; margin-bottom: 1en; text-align: left;">Darkness Visible</strong>
-            <a href="#" onclick="goBack()"><h3 style = "text-align: left; margin-left: 3em">Back to Main Page</h3></a>
+            <a href="../index.html#previous-spot"><h3 style = "text-align: left; margin-left: 3em">Back to Main Page</h3></a>
             </p>
             <div class ="container">
 
@@ -58,7 +58,7 @@
         <p>
             Especially, the piece of William Styron gives us personal and intimate dialogue of his sufferings. The letters he received after writing the opinion-editorial for The New York Times and publishing the book "Darkness Visible" demonstrate that his writings and literature go beyond simply documenting his own experiences. They help people perceive their sufferings not being left alone in solitude and others empathise with the sufferings present inside of people. </p>
         <p  style = "padding-bottom: 4em">
-            <a href = "#" class="triangle-up"></a><br><br>
+            <a href = "#" onclick = "goToTop()"class="triangle-up"></a><br><br>
             Go to top
         </p>
     </div>

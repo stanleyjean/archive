@@ -23,9 +23,9 @@
         <script src = "../final.js"></script>
     </head>
     <script>
-        function goBack() {
-          window.history.back();
-        }
+        function goToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
       </script>
     <body>
         <!--[if lt IE 7]>
@@ -35,7 +35,7 @@
         <script src="" async defer></script>
         <p style = "padding-top: 4em">
             <strong style = "font-size: 50px; margin-bottom: 1en; text-align: left;">Everywhere at the End of Time <br> by The Caretaker</strong>
-            <a href="#" onclick="goBack()"><h3 style = "text-align: left; margin-left: 3em">Back to Main Page</h3></a>
+            <a href="../index.html#previous-spot"><h3 style = "text-align: left; margin-left: 3em">Back to Main Page</h3></a>
             </p>
         <div class = "container">
         <figure>
@@ -48,7 +48,7 @@
         <p>From the album arts of Everywhere at the End of Time, it is also noticeable that the possibility of art for showing the missing, or blind, spots that people not experiencing such problems would not be able to perceive. It consists of stage I – VI, each of which represents the gradual change of dementia as depicted in each album art. As we saw briefly in the works of William Utermohlen, these arts give us an opportunity to recognise the neglected or mystical part of others that we are unaware of. A mere disease that deprives oneself of capabilities as a human being is easily considered as nothing but a phenomenon that surfaces lightly. The work of The Caretaker lets us feel and see the actual process and sentiments that those suffering from dementia would have. </p>
 
         <p  style = "padding-bottom: 4em">
-            <a href = "#" class="triangle-up"></a><br><br>
+            <a href = "#" onclick = "goToTop()"class="triangle-up"></a><br><br>
             Go to top
         </p>
     </div></body>
