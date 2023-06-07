@@ -29,7 +29,7 @@ body{
 
 .change{
   opacity: 0;
-  transition: all 3s;
+  transition: all 1.5s;
 }
 
 .triangle-up:hover {
